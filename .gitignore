@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+Library/
+Temp/
+obj/
+Logs/
+Build/
+Builds/
+*.unitypackage
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
