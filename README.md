@@ -86,7 +86,8 @@ streaming over RTSP, and the projector connected to the laptop.
    ```
 
    The MediaPipe `.task` model files (`gesture_recognizer.task`,
-   `hand_landmarker.task`) are bundled in the repo and in `new_rasp/`.
+   `hand_landmarker.task`) auto-download on first run via each script's
+   `ensure_model()` helper; no manual setup is required.
 
 2. Start the Pi cameras streaming RTSP (one stream per camera). Update the
    stream URLs in `new_rasp/calibrate_projector_corners_stereo.py`
@@ -121,3 +122,7 @@ streaming over RTSP, and the projector connected to the laptop.
   baseline, so the ball tracker recomputes a darkest-pixel baseline per camera.
 - This was built under hackathon time pressure and is a working prototype, not
   a polished product.
+
+## License
+
+MIT License, see [LICENSE](LICENSE).
