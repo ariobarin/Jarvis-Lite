@@ -7,6 +7,17 @@ hit as a native Windows touch event. Mouse input is used as a fallback.
 
 Built for Hack the North 2025.
 
+## Demo
+
+https://github.com/user-attachments/assets/ce600da4-514f-4aa3-87ce-8c51b1350994
+
+Drawing in Paint by touching the projected wall. This complete 13-second team
+recording retains its original audio.
+
+[Watch the full demo](https://www.youtube.com/watch?v=SSErUJJCi6A), uploaded by
+Kev D, for the stereo camera and projector setup and ArUco calibration. See the
+[Devpost project](https://devpost.com/software/touch-me) for the build and team.
+
 ## What it does
 
 The core problem: projectors are cheap and everywhere, but they are not
